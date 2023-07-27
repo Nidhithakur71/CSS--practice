@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg,hsl(31, 91%, 54%),hwb(65 11% 11%),hsl(118, 78%, 40%));
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+
+}
